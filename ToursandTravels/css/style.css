@@ -81,6 +81,30 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   z-index: 2;
   margin: 0 auto; }
+
+
+    /* Changes */
+    #log{
+      color: white;
+      width: 25%;
+      /* margin: 8px; */
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .txtcolor{
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+
+    }
+
+    .colorlib-nav #colorlib-logo a {
+      position: relative;
+      color: #fff;
+      font-size: 20px;
+     }
+
   @media screen and (max-width: 768px) {
     .colorlib-nav {
       margin: 0; } }
